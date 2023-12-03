@@ -17,7 +17,7 @@ To design the FSM machine, I have followed the following steps.
 
 Since the blinking operation is the same for both turns. The machine is broken into two identical Moore FSMs each controlling one side of tail lights with **1-bit input $I$ (TRUE means there is a turn in that direction).**
 
-- 2 inputs: Left and Right turn (if both are TRUE → both sides sequences will play)
+- 2 inputs: Left and Right turn (if both are TRUE → sequences for both sides will play)
 - 6 outputs: 3 Lights for each side: LA , LB, LC, RA, RB, and RC (Red, Yellow, Green)
 
 ![image](https://github.com/OmarNehad/Tail-Lights-FSM/assets/52573189/6f9409fe-028f-4b97-89b9-a5321266b6f1)

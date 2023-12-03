@@ -45,7 +45,7 @@ State transition table with binary encodings
 
 Output table
 
-| Current State | $O_A$ | $ O_B$ | $ O_C $ |
+| Current State | $O_A$ | $O_B$ | $O_C$ |
 | --- | --- | --- | --- |
 | OFF | 0 | 0 | 0 |
 | $E_{A}$ | 1 | 0 | 0 |
